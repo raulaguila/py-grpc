@@ -11,10 +11,11 @@ def serve():
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
 
     camera_pb2_grpc.add_CameraServicer_to_server(CameraService(), server)
-    reflection.enable_server_reflection((
-        camera_pb2.DESCRIPTOR.services_by_name['Camera'].full_name,
-        reflection.SERVICE_NAME,
-    ),
+    reflection.enable_server_reflection(
+        (
+            camera_pb2.DESCRIPTOR.services_by_name['Camera'].full_name,
+            reflection.SERVICE_NAME,
+        ),
         server,
     )
 
