@@ -3,3 +3,4 @@ grpcio-tools==1.62.2
 grpcio-reflection==1.62.2
 opencv-python==4.9.0.80
 loguru==0.7.2
+

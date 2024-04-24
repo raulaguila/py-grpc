@@ -1,10 +1,9 @@
-import time
-import math
 import base64
+import math
+import time
 from typing import Optional, List
 
 import cv2
-from loguru import logger
 
 from . import camera_pb2
 from . import camera_pb2_grpc

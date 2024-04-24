@@ -27,3 +27,4 @@ if _descriptor._USE_C_DESCRIPTORS == False:
     _globals['_CAMERA']._serialized_start = 72
     _globals['_CAMERA']._serialized_end = 131
 # @@protoc_insertion_point(module_scope)
+

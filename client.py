@@ -5,6 +5,7 @@ import cv2
 import grpc
 import numpy as np
 from loguru import logger
+
 from server import camera_pb2, camera_pb2_grpc
 
 OPTIONS = [
