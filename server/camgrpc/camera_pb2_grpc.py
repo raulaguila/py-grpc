@@ -66,4 +66,3 @@ class Camera(object):
                                               options, channel_credentials,
                                               insecure, call_credentials, compression, wait_for_ready, timeout,
                                               metadata)
-

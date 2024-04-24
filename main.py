@@ -9,4 +9,3 @@ if __name__ == "__main__":
         logger.info("^C received, shutting down the server")
     except Exception as e:
         logger.exception(f"Exception occurred: {e}")
-
