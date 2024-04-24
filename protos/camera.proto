@@ -1,0 +1,13 @@
+syntax = "proto3";
+package camera;
+
+message Blank{};
+
+message CameraResponse{
+  string base64image = 1;
+}
+
+service Camera {
+  // Server Streaming
+  rpc Stream(Blank) returns (stream CameraResponse);
+}
